@@ -36,6 +36,7 @@ public class MyActivity extends AppCompatActivity {
             case R.id.action_settings:
                 boolean resp = true;
                 return resp;
+            
 
             default:
                 return super.onOptionsItemSelected(item);
