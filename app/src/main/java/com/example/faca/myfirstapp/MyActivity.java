@@ -33,7 +33,6 @@ public class MyActivity extends AppCompatActivity {
                 return true;
             case R.id.action_settings:
                 return true;
-
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -43,7 +42,7 @@ public class MyActivity extends AppCompatActivity {
     /**
      * Callen when the users clicks the Send button
      *
-     * 
+     *
      */
     public void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
