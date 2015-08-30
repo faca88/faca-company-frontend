@@ -11,14 +11,13 @@ import android.widget.EditText;
 
 public class MyActivity extends AppCompatActivity {
 
-
     public static final String EXTRA_MESSAGE = "com.example.faca.myfirstapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        
+
     }
 
     @Override
