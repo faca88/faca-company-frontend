@@ -33,6 +33,7 @@ public class MyActivity extends AppCompatActivity {
                 return true;
             case R.id.action_settings:
                 return true;
+            
             default:
                 return super.onOptionsItemSelected(item);
         }
