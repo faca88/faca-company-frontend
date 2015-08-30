@@ -32,9 +32,9 @@ public class MyActivity extends AppCompatActivity {
             case R.id.action_search:
                 return true;
             case R.id.action_settings:
-                return true;
+                boolean resp = true;
+                return resp;
 
-            
             default:
                 return super.onOptionsItemSelected(item);
         }
