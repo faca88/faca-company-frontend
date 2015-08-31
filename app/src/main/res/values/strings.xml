@@ -8,5 +8,6 @@
     <string name="title_activity_display_message">My Message</string>
     <string name="action_search">action_search</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
 
 </resources>
