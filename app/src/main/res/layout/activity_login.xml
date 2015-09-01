@@ -37,7 +37,7 @@
         android:layout_gravity="center"
         android:text="Login"
         android:textAlignment="center"
-        android:background="#6666CC"
+        android:background="@drawable/btn_back"
         android:layout_marginTop="30px"
         android:textColor="#ffffff" />
 
@@ -54,7 +54,7 @@
             android:layout_width="300px"
             android:layout_height="110px"
             android:layout_gravity="center"
-            android:background="#6666CC"
+            android:background="@drawable/btn_back_blue"
             android:text="Register"
             android:textAlignment="center"
             android:textColor="#ffffff" />
@@ -64,7 +64,7 @@
             android:layout_width="300px"
             android:layout_height="110px"
             android:layout_marginLeft="20px"
-            android:background="#6666CC"
+            android:background="@drawable/btn_back_red"
             android:text="Forgot Password"
             android:textAlignment="center"
             android:textColor="#ffffff" />
