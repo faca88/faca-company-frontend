@@ -82,7 +82,7 @@ public class ServerRequest {
     JSONObject jobj;
 
     public JSONObject getJSON(String url, List<NameValuePair> params) {
-        jobj = new JSONObject();
+
         Params param = new Params(url, params);
         Request myTask = new Request();
         try {
