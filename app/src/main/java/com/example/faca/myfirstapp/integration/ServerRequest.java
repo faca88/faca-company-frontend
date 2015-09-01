@@ -38,11 +38,12 @@ public class ServerRequest {
 
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();
-            HttpPost httpPost = new HttpPost();
+            HttpPost httpPost = new HttpPost(url);
             httpPost.setEntity(new UrlEncodedFormEntity(params));
 
             HttpResponse httpResponse = httpClient.execute(httpPost);
             HttpEntity httpEntity = httpResponse.getEntity();
+
             is = httpEntity.getContent();
 
         } catch (UnsupportedEncodingException e) {
@@ -81,7 +82,7 @@ public class ServerRequest {
     JSONObject jobj;
 
     public JSONObject getJSON(String url, List<NameValuePair> params) {
-
+        jobj = new JSONObject();
         Params param = new Params(url, params);
         Request myTask = new Request();
         try {
